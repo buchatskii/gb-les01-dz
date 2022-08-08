@@ -72,7 +72,7 @@ Console.Clear();
 // Console.Write("Введите число: ");
 // int number = Convert.ToInt32(Console.ReadLine());
 // int chetnoe = 1;
-// if (number > 0)
+// if (number > 1)
 // {
 //     while (chetnoe <= number)
 //     {
@@ -84,7 +84,7 @@ Console.Clear();
 //         chetnoe = chetnoe + 1;
 //     }
 // }
-// else if (number < -0)
+// else if (number < -1)
 // {
 //     while (-chetnoe >= number)
 //     {
@@ -97,9 +97,8 @@ Console.Clear();
 //     }
 // }
 // else
-// {
-//     Console.WriteLine("Не удовлетворительное значение, для условия задачи");
-// }
+// Console.WriteLine("Не удовлетворительное значение, для условия задачи");
+
 
 
 
