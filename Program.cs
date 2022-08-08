@@ -52,25 +52,54 @@ Console.Clear();
 // }
 
 
+// Задача 5: Напишите программу, которая на вход принимает одно число (N), а на выходе показывает все целые числа в промежутке от -N до N.
+
+// Console.Write("Введите число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// int x = -number;
+// if (number >= 0 )
+// {
+//     while (x <= number)
+//     {
+//         Console.WriteLine(x);
+//         x = x + 1;
+//     }
+// }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Задача 8 Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+// Console.Write("Введите число: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// int chetnoe = 1;
+// if (number > 0)
+// {
+//     while (chetnoe <= number)
+//     {
+//         while (chetnoe % 2 == 0)
+//         {
+//             Console.WriteLine(chetnoe);
+//             chetnoe = chetnoe + 1;
+//         }
+//         chetnoe = chetnoe + 1;
+//     }
+// }
+// else if (number < -0)
+// {
+//     while (-chetnoe >= number)
+//     {
+//         while (number % 2 == 0)
+//         {
+//             Console.WriteLine(number);
+//             number = number + 1;
+//         }
+//         number = number + 1;
+//     }
+// }
+// else
+// {
+//     Console.WriteLine("Не удовлетворительное значение, для условия задачи");
+// }
 
 
 
